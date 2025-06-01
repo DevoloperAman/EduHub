@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import { Menu, X } from "lucide-react" // You can install `lucide-react` or use any icon library
-import navlog from "../assets/fevicon.png" // Adjust the path as necessary
+import navlog from "../assets/logoMain.png" // Adjust the path as necessary
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
