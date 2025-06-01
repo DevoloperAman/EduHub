@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import { Menu, X } from "lucide-react" // You can install `lucide-react` or use any icon library
+import navlog from "../assets/fevicon.png" // Adjust the path as necessary
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -12,7 +13,7 @@ function Navbar() {
                 
                 {/* Logo */}
                 <div>
-                    <img className="w-28 md:w-32" src="src/assets/logoMain.png" alt="EduHub Logo" />
+                    <img className="w-28 md:w-32" src={navlog} alt="EduHub Logo" />
                 </div>
 
                 {/* Hamburger Menu (Mobile) */}
