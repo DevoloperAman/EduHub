@@ -1,4 +1,5 @@
 import Button from './ToolsComponents/Button'
+import boy from '.././assets/boyimage.png'
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
 
         {/*  this  is for the Image Section   */}
         <div className=' w-3/4 md:w-1/3  flex justify-center  items-center   '>
-          <img className='w-full mt-6 md:mt-0 ' src="src\assets\boyimage.png" alt="boi Iamge " />
+          <img className='w-full mt-6 md:mt-0 ' src={boy} alt="boi Iamge " />
         </div>
       </div>
     </>

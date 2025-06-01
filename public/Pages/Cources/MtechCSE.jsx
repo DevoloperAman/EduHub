@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import BoyLogo from '../../../src/assets/Cources pages images/Bscit.jpg' // Adjust the path as necessary
+import boylogo from '../../../src/assets/Cources pages images/BoySimple.png' // Adjust the path as necessary
 
 function BScIT() {
   const [search, setSearch] = useState("")
@@ -36,8 +38,8 @@ function BScIT() {
         {/* Header Section */}
         <div className=' flex flex-col gap-5 items-center justify-center md:flex md:flex-row md:justify-center md:gap-22 md:items-center    '>
           <div className='h-52 w-46  flex items-center justify-center  '>
-            <img className=' h-52 w-46 overflow-hidden rounded-2xl hidden md:block ' src="src\assets\Cources pages images\Bscit.jpg" alt="laoding..." />
-             <img className=' h-52 w-82 overflow-hidden rounded-full md:hidden' src="src\assets\Cources pages images\Boy simple.png" alt="laoding..." />
+            <img className=' h-52 w-46 overflow-hidden rounded-2xl hidden md:block ' src={BoyLogo} alt="laoding..." />
+             <img className=' h-52 w-82 overflow-hidden rounded-full md:hidden' src={boylogo} alt="laoding..." />
           </div>
           <div  >
             <h1 className=' text-center  text-3xl md:text-5xl font-bold pb-1.5'>M.Tech. 
